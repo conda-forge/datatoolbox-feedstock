@@ -33,7 +33,8 @@ requirements:
     - pyam >=1.4.0
     - pycountry
     - python >=3.6
-    - regex
+    - python-docx
+    - tabulate
     - tqdm
     - xarray
 
