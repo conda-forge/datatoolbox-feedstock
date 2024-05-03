@@ -21,15 +21,16 @@ requirements:
     - setuptools-scm
   run:
     - appdirs
-    - beautifulsoup4
     - deprecated
     - fuzzywuzzy
     - gitpython
-    - itsdangerous
     - networkx >=2.4.0
+    - matplotlib
+    - numpy
     - openpyxl
     - openscm-units >0.5
     - pandas >=1.1.0
+    - pandas-indexing
     - pint >=0.11
     - pint-xarray
     - pyam >=1.4.0
@@ -37,10 +38,11 @@ requirements:
     - pyarrow
     - python >=3.6
     - python-docx
-    - ratelimit
     - tabulate
+    - treelib
     - tqdm
     - xarray
+    - xlsxwriter
 
 test:
   imports:
