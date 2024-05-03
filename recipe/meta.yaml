@@ -1,5 +1,5 @@
 {% set name = "datatoolbox" %}
-{% set version = "0.6.4" %}
+{% set version = "0.6.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/datatoolbox-{{ version }}.tar.gz
-  sha256: a6a6eb5e88dc99e7dff74b8eeb5b57bfa88986885ebb80edbce5bc8bc6859edf
+  sha256: 11f1529f2fc0fa49d50452e9541bfd87d21f8d5ee1eb146b42901447c83a0ed1
 
 build:
   noarch: python
@@ -21,15 +21,16 @@ requirements:
     - setuptools-scm
   run:
     - appdirs
-    - beautifulsoup4
     - deprecated
     - fuzzywuzzy
     - gitpython
-    - itsdangerous
     - networkx >=2.4.0
+    - matplotlib-base
+    - numpy
     - openpyxl
     - openscm-units >0.5
     - pandas >=1.1.0
+    - pandas-indexing
     - pint >=0.11
     - pint-xarray
     - pyam >=1.4.0
@@ -37,10 +38,11 @@ requirements:
     - pyarrow
     - python >=3.6
     - python-docx
-    - ratelimit
     - tabulate
+    - treelib
     - tqdm
     - xarray
+    - xlsxwriter
 
 test:
   imports:
