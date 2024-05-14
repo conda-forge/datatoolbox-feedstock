@@ -34,7 +34,6 @@ requirements:
     - pint >=0.11
     - pint-xarray
     - pyam >=1.4.0
-    - pycountry
     - pyarrow
     - python >=3.6
     - python-docx
