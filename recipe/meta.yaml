@@ -1,5 +1,5 @@
 {% set name = "datatoolbox" %}
-{% set version = "0.6.9" %}
+{% set version = "0.7.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/datatoolbox-{{ version }}.tar.gz
-  sha256: 11f1529f2fc0fa49d50452e9541bfd87d21f8d5ee1eb146b42901447c83a0ed1
+  sha256: 33d883960461fc4ed5a291b02b8e8b1b3a65af2632c59e8aed25a2cf968cadd4
 
 build:
   noarch: python
@@ -34,8 +34,8 @@ requirements:
     - pint >=0.11
     - pint-xarray
     - pyam >=1.4.0
-    - pycountry
     - pyarrow
+    - pycountry
     - python >=3.6
     - python-docx
     - tabulate
