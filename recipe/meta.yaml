@@ -1,5 +1,6 @@
 {% set name = "datatoolbox" %}
-{% set version = "0.8.2" %}
+{% set version = "0.8.3" %}
+
 
 package:
   name: {{ name|lower }}
@@ -7,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/datatoolbox-{{ version }}.tar.gz
-  sha256: fea19b8725f781aeda7cf05e1f8582dff14db3c6cd61577a0ac7b3035dfb5e0a
+  sha256: 1b1dbb3af9be31246526ab1d6030edf5c1bf1df0aa11beaa5cb01a0205cd619e
 
 build:
   noarch: python
