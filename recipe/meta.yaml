@@ -30,7 +30,7 @@ requirements:
     - networkx >=2.4.0
     - numpy
     - openpyxl
-    - openscm-units>0.5
+    - openscm-units >0.5
     - pandas >=2.0.0
     - pandas-indexing
     - pint >=0.11
@@ -45,7 +45,7 @@ requirements:
     - tabulate
     - treelib
     - tqdm
-    - xarray>=2024.9.0
+    - xarray >=2024.9.0
     - xlsxwriter
 
 test:
