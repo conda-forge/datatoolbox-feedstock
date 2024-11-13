@@ -25,24 +25,27 @@ requirements:
     - deprecated
     - fuzzywuzzy
     - gitpython
-    - networkx >=2.4.0
+    - ipython
     - matplotlib-base
+    - networkx >=2.4.0
     - numpy
     - openpyxl
-    - openscm-units >0.5
-    - pandas >=1.1.0
+    - openscm-units>0.5
+    - pandas >=2.0.0
     - pandas-indexing
     - pint >=0.11
     - pint-xarray
-    - pyam >=1.4.0
+    - pyam >=2.2.0
     - pyarrow
     - pycountry
     - python >=3.6
+    - python-calamine
     - python-docx
+    - recommonmark
     - tabulate
     - treelib
     - tqdm
-    - xarray
+    - xarray>=2024.9.0
     - xlsxwriter
 
 test:
