@@ -27,7 +27,7 @@ requirements:
     - gitpython
     - ipython
     - matplotlib-base
-    - networkx >=2.4.0
+    - networkx >=2.4
     - numpy
     - openpyxl
     - openscm-units >0.5
@@ -45,7 +45,7 @@ requirements:
     - tabulate
     - treelib
     - tqdm
-    - xarray >=2024.9.0
+    - xarray >=2024.9
     - xlsxwriter
 
 test:
