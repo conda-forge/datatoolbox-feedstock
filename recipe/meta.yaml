@@ -13,12 +13,12 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python {{ python_min }}
     - setuptools-scm
   run:
     - appdirs
@@ -38,7 +38,7 @@ requirements:
     - pyam >=2.2.0
     - pyarrow
     - pycountry
-    - python >=3.6
+    - python >={{ python_min }}
     - python-calamine
     - python-docx
     - recommonmark
@@ -56,6 +56,7 @@ test:
   requires:
     - pip
     - git
+    - python {{ python_min }}
 
 about:
   home: https://gitlab.com/climateanalytics/datatoolbox
